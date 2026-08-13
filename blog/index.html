@@ -123,7 +123,7 @@
 <body class="bg-slate-900 text-slate-50 font-sans min-h-screen flex flex-col">
 
   <header class="fixed top-0 left-0 right-0 bg-slate-900/80 backdrop-blur-md border-b border-slate-800 z-50">
-    <div class="container mx-auto px-4 h-16 flex items-center justify-between">
+    <div class="container mx-auto px-4 max-w-6xl h-16 flex items-center justify-between">
       <!-- 왼쪽: 로고 -->
       <div class="flex-1 flex justify-start">
         <a href="/" class="text-lg font-bold text-white flex items-center gap-1.5 hover:text-blue-400 transition-colors">
@@ -143,7 +143,7 @@
       
       <!-- 오른쪽: 구매문의 및 햄버거 -->
       <div class="flex-1 flex justify-end items-center gap-2">
-        <a href="https://ssw33.xyz" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white px-4 py-1.5 md:px-5 md:py-2 text-sm rounded-lg font-bold hover:bg-blue-500 transition-colors shadow-sm whitespace-nowrap">구매문의</a>
+        <a href="/contact" class="bg-blue-600 text-white px-4 py-1.5 md:px-5 md:py-2 text-sm rounded-lg font-bold hover:bg-blue-500 transition-colors shadow-sm whitespace-nowrap">구매문의</a>
         
         <button id="mobile-menu-btn" class="md:hidden text-slate-300 p-1 focus:outline-none hover:text-white" aria-label="메뉴 열기">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -179,7 +179,7 @@
         <article class="relative aspect-9/16 bg-slate-800 md:rounded-xl overflow-hidden group cursor-pointer">
           <a href="/blog/viagra-guide-3-things" class="block w-full h-full" aria-label="비아그라 복용 전 반드시 알아야 할 3가지 읽기">
             <!-- 백그라운드 이미지 (호버 시 줌인 효과) -->
-            <img src="https://images.unsplash.com/photo-1584308666744-24d5e4a5d89f?q=80&w=400&h=700&fit=crop" alt="약통과 캡슐 이미지" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1654939290561-04a1673fdb40?q=80&w=400&h=700&fit=crop" alt="약통과 캡슐 이미지" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
             <!-- 상단 그라데이션 (조회수 표시용) -->
             <div class="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-black/60 to-transparent z-10 pointer-events-none"></div>
             <!-- 하단 그라데이션 (텍스트 가독성용) -->
@@ -347,8 +347,8 @@
           비아구매가이드
         </div>
         <div class="text-sm flex gap-4">
-          <a href="#" class="hover:text-white transition-colors">이용약관</a>
-          <a href="#" class="hover:text-white transition-colors">개인정보처리방침</a>
+          <a href="/terms" class="hover:text-white transition-colors">이용약관</a>
+          <a href="/privacy" class="hover:text-white transition-colors">개인정보처리방침</a>
         </div>
       </div>
       <div class="text-xs text-slate-500 text-center md:text-left leading-relaxed">
@@ -379,28 +379,6 @@
           });
         });
       }
-
-      // 하트(좋아요) 아이콘 클릭 시 색상 변경 인터랙션 (이벤트 버블링 방지)
-      const heartIcons = document.querySelectorAll('article svg.text-white');
-      heartIcons.forEach(icon => {
-        icon.addEventListener('click', (e) => {
-          e.preventDefault(); // 링크 이동 방지
-          e.stopPropagation();
-          
-          if(icon.classList.contains('text-white')) {
-            icon.classList.remove('text-white', 'fill-none', 'stroke-current');
-            icon.classList.add('text-pink-500', 'fill-current');
-            // 숫자 1 증가 로직 (UI 상업적 연출)
-            const countSpan = icon.nextElementSibling;
-            if(countSpan) countSpan.innerText = parseInt(countSpan.innerText) + 1;
-          } else {
-            icon.classList.add('text-white', 'fill-none', 'stroke-current');
-            icon.classList.remove('text-pink-500', 'fill-current');
-            const countSpan = icon.nextElementSibling;
-            if(countSpan) countSpan.innerText = parseInt(countSpan.innerText) - 1;
-          }
-        });
-      });
     });
   </script>
 </body>
