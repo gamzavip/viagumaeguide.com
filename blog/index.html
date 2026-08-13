@@ -1,1 +1,407 @@
+<!DOCTYPE html>
+<html lang="ko" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- 직접 생성한 인라인 SVG 파비콘 (방패 형태) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%232563eb'/%3E%3Cpath d='M50 20 L20 35 L20 60 C20 80 50 95 50 95 C50 95 80 80 80 60 L80 35 Z' fill='%231e3a8a'/%3E%3Cpath d='M45 70 L30 55 L37 48 L45 56 L65 36 L72 43 Z' fill='%23ffffff'/%3E%3C/svg%3E" type="image/svg+xml">
+  
+  <!-- 1. 기본 SEO 메타 태그 -->
+  <title>비아구매가이드 숏폼 매거진 - 발기부전 치료제 최신 정보 및 팁</title>
+  <meta name="description" content="비아그라 복용법, 부작용, 정품 구별법 등 남성 건강과 발기부전 치료제에 대한 핵심 정보를 1분 숏폼 형태의 블로그로 빠르게 확인하세요.">
+  <meta name="keywords" content="비아그라 블로그, 발기부전 치료제 정보, 비아그라 복용법 팁, 정품 비아그라 구별, 남성 건강 쇼츠, 팔팔정, 구구정 리뷰">
+  <meta name="author" content="비아구매가이드">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  
+  <!-- 2. Canonical URL -->
+  <link rel="canonical" href="https://viagumaeguide.com/blog">
 
+  <!-- 3. Open Graph 태그 (소셜 공유 최적화) -->
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="비아구매가이드 숏폼 매거진">
+  <meta property="og:description" content="핵심만 담은 1분 남성 건강 팁! 비아그라의 모든 것을 트렌디한 카드 뉴스로 만나보세요.">
+  <meta property="og:image" content="https://viagumaeguide.com/img/Gemini_Generated_Image_8inc9r8inc9r8inc.png">
+  <meta property="og:url" content="https://viagumaeguide.com/blog">
+  <meta property="og:site_name" content="비아구매가이드">
+
+  <!-- 4. 구조화된 데이터 (JSON-LD) - SEO 최적화 (Blog 및 Breadcrumb) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "홈",
+            "item": "https://viagumaeguide.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "블로그",
+            "item": "https://viagumaeguide.com/blog"
+          }
+        ]
+      },
+      {
+        "@type": "Blog",
+        "@id": "https://viagumaeguide.com/blog",
+        "name": "비아구매가이드 숏폼 매거진",
+        "description": "남성 건강 및 발기부전 치료제 관련 전문 정보를 제공하는 블로그입니다.",
+        "url": "https://viagumaeguide.com/blog",
+        "publisher": {
+          "@type": "Organization",
+          "name": "비아구매가이드",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://viagumaeguide.com/img/Gemini_Generated_Image_8inc9r8inc9r8inc.png"
+          }
+        },
+        "blogPost": [
+          {
+            "@type": "BlogPosting",
+            "headline": "비아그라 복용 전 반드시 알아야 할 3가지",
+            "datePublished": "2024-05-15"
+          },
+          {
+            "@type": "BlogPosting",
+            "headline": "2030 심인성 발기부전, 극복하는 루틴",
+            "datePublished": "2024-05-18"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Tailwind CSS 로드 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- 폰트 로드 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind 다크모드 및 설정 -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'Noto Sans KR', 'sans-serif'],
+          },
+          aspectRatio: {
+            '9/16': '9 / 16',
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    body {
+      background-color: #0f172a; /* Tailwind slate-900 (틱톡 스타일 다크 배경) */
+      color: #f8fafc; /* Tailwind slate-50 */
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    /* 틱톡 스타일의 스크롤바 숨기기 (깔끔한 UI용) */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-50 font-sans min-h-screen flex flex-col">
+
+  <header class="fixed top-0 left-0 right-0 bg-slate-900/80 backdrop-blur-md border-b border-slate-800 z-50">
+    <div class="container mx-auto px-4 h-16 flex items-center justify-between">
+      <!-- 왼쪽: 로고 -->
+      <div class="flex-1 flex justify-start">
+        <a href="/" class="text-lg font-bold text-white flex items-center gap-1.5 hover:text-blue-400 transition-colors">
+          <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+          비아구매가이드
+        </a>
+      </div>
+      
+      <!-- 중앙: 데스크톱 메뉴 -->
+      <nav class="hidden md:flex flex-1 justify-center items-center gap-6 text-sm font-medium text-slate-300 whitespace-nowrap">
+        <a href="/#intro" class="hover:text-white transition-colors">정의</a>
+        <a href="/#usage" class="hover:text-white transition-colors">복용법</a>
+        <a href="/#side-effects" class="hover:text-white transition-colors">부작용</a>
+        <a href="/#purchase" class="hover:text-white transition-colors">구매방법</a>
+        <a href="/blog" class="font-bold text-blue-400 hover:text-blue-300 transition-colors border-b-2 border-blue-400 pb-1">숏폼 매거진</a>
+      </nav>
+      
+      <!-- 오른쪽: 구매문의 및 햄버거 -->
+      <div class="flex-1 flex justify-end items-center gap-2">
+        <a href="https://ssw33.xyz" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white px-4 py-1.5 md:px-5 md:py-2 text-sm rounded-lg font-bold hover:bg-blue-500 transition-colors shadow-sm whitespace-nowrap">구매문의</a>
+        
+        <button id="mobile-menu-btn" class="md:hidden text-slate-300 p-1 focus:outline-none hover:text-white" aria-label="메뉴 열기">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    
+    <!-- 모바일 드롭다운 메뉴 -->
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-800 border-t border-slate-700 absolute top-16 left-0 right-0 shadow-2xl flex-col w-full z-50">
+      <a href="/#intro" class="mobile-link block px-5 py-4 border-b border-slate-700 text-slate-200 hover:bg-slate-700 font-medium">정의</a>
+      <a href="/#usage" class="mobile-link block px-5 py-4 border-b border-slate-700 text-slate-200 hover:bg-slate-700 font-medium">복용법</a>
+      <a href="/#side-effects" class="mobile-link block px-5 py-4 border-b border-slate-700 text-slate-200 hover:bg-slate-700 font-medium">부작용</a>
+      <a href="/#purchase" class="mobile-link block px-5 py-4 border-b border-slate-700 text-slate-200 hover:bg-slate-700 font-medium">구매방법</a>
+      <a href="/blog" class="mobile-link block px-5 py-4 border-b border-slate-700 font-bold text-blue-400 bg-slate-900/50">숏폼 매거진</a>
+    </div>
+  </header>
+
+  <main class="flex-grow pt-20 pb-16">
+    <div class="container mx-auto px-2 md:px-4 max-w-6xl">
+      
+      <!-- 페이지 타이틀 -->
+      <div class="py-6 px-2">
+        <h1 class="text-2xl md:text-3xl font-extrabold text-white mb-2 tracking-tight flex items-center gap-2">
+          <svg class="w-7 h-7 text-pink-500" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+          트렌딩 쇼츠
+        </h1>
+        <p class="text-sm text-slate-400 font-medium">1분 만에 읽는 남성 건강의 모든 것</p>
+      </div>
+
+      <section class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 md:gap-4 mt-2" aria-label="블로그 포스트 목록">
+        
+        <!-- Post 1 -->
+        <article class="relative aspect-9/16 bg-slate-800 md:rounded-xl overflow-hidden group cursor-pointer">
+          <a href="/blog/viagra-guide-3-things" class="block w-full h-full" aria-label="비아그라 복용 전 반드시 알아야 할 3가지 읽기">
+            <!-- 백그라운드 이미지 (호버 시 줌인 효과) -->
+            <img src="https://images.unsplash.com/photo-1584308666744-24d5e4a5d89f?q=80&w=400&h=700&fit=crop" alt="약통과 캡슐 이미지" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+            <!-- 상단 그라데이션 (조회수 표시용) -->
+            <div class="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-black/60 to-transparent z-10 pointer-events-none"></div>
+            <!-- 하단 그라데이션 (텍스트 가독성용) -->
+            <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10 pointer-events-none"></div>
+            
+            <!-- 콘텐츠 -->
+            <div class="absolute inset-0 z-20 flex flex-col justify-between p-3 md:p-4">
+              <!-- 상단: 조회수 -->
+              <div class="flex justify-start text-xs font-semibold text-white/90 drop-shadow-md">
+                <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg> 12.4K</span>
+              </div>
+              
+              <!-- 하단: 제목 및 정보 -->
+              <div class="mb-1">
+                <span class="inline-block px-2 py-0.5 bg-blue-600/80 backdrop-blur-sm text-white text-[10px] md:text-xs font-bold rounded mb-2">필독 가이드</span>
+                <h2 class="text-sm md:text-base font-bold text-white leading-tight mb-2 line-clamp-3 drop-shadow-lg">비아그라 복용 전 반드시 알아야 할 3가지 (효과 200% 올리기)</h2>
+                <div class="flex items-center justify-between text-white/80">
+                  <span class="text-[11px] md:text-xs font-medium">@Dr_Men</span>
+                  <!-- 틱톡풍 좋아요 아이콘 -->
+                  <div class="flex items-center gap-1">
+                    <svg class="w-4 h-4 text-pink-500 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                    <span class="text-[11px] font-bold">1.2K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="relative aspect-9/16 bg-slate-800 md:rounded-xl overflow-hidden group cursor-pointer">
+          <a href="/blog/2030-ed-routine" class="block w-full h-full" aria-label="2030 심인성 발기부전, 원인과 극복 루틴 읽기">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=400&h=700&fit=crop" alt="고민하는 남성 이미지" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+            <div class="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-black/60 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute inset-0 z-20 flex flex-col justify-between p-3 md:p-4">
+              <div class="flex justify-start text-xs font-semibold text-white/90 drop-shadow-md">
+                <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg> 85.1K</span>
+              </div>
+              <div class="mb-1">
+                <span class="inline-block px-2 py-0.5 bg-purple-600/80 backdrop-blur-sm text-white text-[10px] md:text-xs font-bold rounded mb-2">라이프스타일</span>
+                <h2 class="text-sm md:text-base font-bold text-white leading-tight mb-2 line-clamp-3 drop-shadow-lg">2030 심인성 발기부전, 원인과 극복하는 데일리 루틴</h2>
+                <div class="flex items-center justify-between text-white/80">
+                  <span class="text-[11px] md:text-xs font-medium">@MenCare</span>
+                  <div class="flex items-center gap-1">
+                    <svg class="w-4 h-4 text-pink-500 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                    <span class="text-[11px] font-bold">4.8K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="relative aspect-9/16 bg-slate-800 md:rounded-xl overflow-hidden group cursor-pointer">
+          <a href="/blog/fake-viagra-check" class="block w-full h-full" aria-label="가짜 비아그라 10초 구별법 읽기">
+            <img src="https://images.unsplash.com/photo-1563203369-26f2e4a5ccf7?q=80&w=400&h=700&fit=crop" alt="돋보기와 텍스트 이미지" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+            <div class="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-black/60 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute inset-0 z-20 flex flex-col justify-between p-3 md:p-4">
+              <div class="flex justify-start text-xs font-semibold text-white/90 drop-shadow-md">
+                <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg> 210K</span>
+              </div>
+              <div class="mb-1">
+                <span class="inline-block px-2 py-0.5 bg-red-600/80 backdrop-blur-sm text-white text-[10px] md:text-xs font-bold rounded mb-2">안전구매</span>
+                <h2 class="text-sm md:text-base font-bold text-white leading-tight mb-2 line-clamp-3 drop-shadow-lg">속지 마세요! 가짜 위조약 10초 만에 구별하는 방법</h2>
+                <div class="flex items-center justify-between text-white/80">
+                  <span class="text-[11px] md:text-xs font-medium">@SafePharm</span>
+                  <div class="flex items-center gap-1">
+                    <svg class="w-4 h-4 text-pink-500 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                    <span class="text-[11px] font-bold">12K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Post 4 -->
+        <article class="relative aspect-9/16 bg-slate-800 md:rounded-xl overflow-hidden group cursor-pointer">
+          <a href="/blog/viagra-and-alcohol" class="block w-full h-full" aria-label="발기부전약과 술의 관계 읽기">
+            <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=400&h=700&fit=crop" alt="와인잔 이미지" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+            <div class="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-black/60 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute inset-0 z-20 flex flex-col justify-between p-3 md:p-4">
+              <div class="flex justify-start text-xs font-semibold text-white/90 drop-shadow-md">
+                <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg> 45.3K</span>
+              </div>
+              <div class="mb-1">
+                <span class="inline-block px-2 py-0.5 bg-yellow-600/80 backdrop-blur-sm text-white text-[10px] md:text-xs font-bold rounded mb-2">주의사항</span>
+                <h2 class="text-sm md:text-base font-bold text-white leading-tight mb-2 line-clamp-3 drop-shadow-lg">약 먹고 술 마시면? 응급실 갈 수 있는 치명적 이유</h2>
+                <div class="flex items-center justify-between text-white/80">
+                  <span class="text-[11px] md:text-xs font-medium">@HealthInfo</span>
+                  <div class="flex items-center gap-1">
+                    <svg class="w-4 h-4 text-white fill-none stroke-current" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                    <span class="text-[11px] font-bold">840</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Post 5 -->
+        <article class="relative aspect-9/16 bg-slate-800 md:rounded-xl overflow-hidden group cursor-pointer hidden sm:block">
+          <a href="/blog/palpal-vs-gugu" class="block w-full h-full" aria-label="팔팔정 구구정 차이점 읽기">
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=400&h=700&fit=crop" alt="의료진 진료 이미지" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+            <div class="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-black/60 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute inset-0 z-20 flex flex-col justify-between p-3 md:p-4">
+              <div class="flex justify-start text-xs font-semibold text-white/90 drop-shadow-md">
+                <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg> 112K</span>
+              </div>
+              <div class="mb-1">
+                <span class="inline-block px-2 py-0.5 bg-emerald-600/80 backdrop-blur-sm text-white text-[10px] md:text-xs font-bold rounded mb-2">약품비교</span>
+                <h2 class="text-sm md:text-base font-bold text-white leading-tight mb-2 line-clamp-3 drop-shadow-lg">국산 제네릭 팔팔정 vs 구구정, 나에게 맞는 약은?</h2>
+                <div class="flex items-center justify-between text-white/80">
+                  <span class="text-[11px] md:text-xs font-medium">@Dr_Men</span>
+                  <div class="flex items-center gap-1">
+                    <svg class="w-4 h-4 text-pink-500 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                    <span class="text-[11px] font-bold">5.1K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Post 6 -->
+        <article class="relative aspect-9/16 bg-slate-800 md:rounded-xl overflow-hidden group cursor-pointer hidden lg:block">
+          <a href="/blog/daily-viagra-side-effects" class="block w-full h-full" aria-label="매일 먹는 발기부전 약 부작용 읽기">
+            <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?q=80&w=400&h=700&fit=crop" alt="달력과 스케줄 이미지" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+            <div class="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-black/60 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute inset-0 z-20 flex flex-col justify-between p-3 md:p-4">
+              <div class="flex justify-start text-xs font-semibold text-white/90 drop-shadow-md">
+                <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg> 9.2K</span>
+              </div>
+              <div class="mb-1">
+                <span class="inline-block px-2 py-0.5 bg-blue-600/80 backdrop-blur-sm text-white text-[10px] md:text-xs font-bold rounded mb-2">데일리요법</span>
+                <h2 class="text-sm md:text-base font-bold text-white leading-tight mb-2 line-clamp-3 drop-shadow-lg">매일 먹는 발기부전 치료제, 진짜 부작용은 없을까?</h2>
+                <div class="flex items-center justify-between text-white/80">
+                  <span class="text-[11px] md:text-xs font-medium">@HealthInfo</span>
+                  <div class="flex items-center gap-1">
+                    <svg class="w-4 h-4 text-white fill-none stroke-current" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                    <span class="text-[11px] font-bold">112</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="bg-slate-950 border-t border-slate-800 py-10 mt-auto text-slate-400">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6 mb-6">
+        <div class="text-xl font-bold text-white flex items-center gap-2">
+          <svg class="w-6 h-6 text-slate-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+          비아구매가이드
+        </div>
+        <div class="text-sm flex gap-4">
+          <a href="#" class="hover:text-white transition-colors">이용약관</a>
+          <a href="#" class="hover:text-white transition-colors">개인정보처리방침</a>
+        </div>
+      </div>
+      <div class="text-xs text-slate-500 text-center md:text-left leading-relaxed">
+        본 블로그 매거진에서 제공하는 정보는 참고용이며, 전문적인 의학적 진단을 대신할 수 없습니다.<br>
+        &copy; 2024 비아구매가이드 매거진. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 모바일 햄버거 메뉴 로직
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileLinks = document.querySelectorAll('.mobile-link');
+      
+      if(mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+          mobileMenu.classList.toggle('flex');
+        });
+
+        // 링크 클릭 시 모바일 메뉴 닫기
+        mobileLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            mobileMenu.classList.remove('flex');
+          });
+        });
+      }
+
+      // 하트(좋아요) 아이콘 클릭 시 색상 변경 인터랙션 (이벤트 버블링 방지)
+      const heartIcons = document.querySelectorAll('article svg.text-white');
+      heartIcons.forEach(icon => {
+        icon.addEventListener('click', (e) => {
+          e.preventDefault(); // 링크 이동 방지
+          e.stopPropagation();
+          
+          if(icon.classList.contains('text-white')) {
+            icon.classList.remove('text-white', 'fill-none', 'stroke-current');
+            icon.classList.add('text-pink-500', 'fill-current');
+            // 숫자 1 증가 로직 (UI 상업적 연출)
+            const countSpan = icon.nextElementSibling;
+            if(countSpan) countSpan.innerText = parseInt(countSpan.innerText) + 1;
+          } else {
+            icon.classList.add('text-white', 'fill-none', 'stroke-current');
+            icon.classList.remove('text-pink-500', 'fill-current');
+            const countSpan = icon.nextElementSibling;
+            if(countSpan) countSpan.innerText = parseInt(countSpan.innerText) - 1;
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
