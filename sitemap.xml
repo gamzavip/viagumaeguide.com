@@ -1,1 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- 1. 메인 페이지 (가장 중요도 높음) -->
+  <url>
+    <loc>https://viagumaeguide.com/</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
+  <!-- 2. 블로그 메인 (매거진 목록 페이지) -->
+  <url>
+    <loc>https://viagumaeguide.com/blog</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 3. 블로그 상세 게시글 1 -->
+  <url>
+    <loc>https://viagumaeguide.com/blog/viagra-guide-3-things</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 4. 블로그 상세 게시글 2 -->
+  <url>
+    <loc>https://viagumaeguide.com/blog/2030-ed-routine</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 5. 구매 문의(Contact) 페이지 -->
+  <url>
+    <loc>https://viagumaeguide.com/contact</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 6. 이용약관 -->
+  <url>
+    <loc>https://viagumaeguide.com/terms</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- 7. 개인정보처리방침 -->
+  <url>
+    <loc>https://viagumaeguide.com/privacy</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
